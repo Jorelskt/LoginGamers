@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lilita+One&family=Press+Start+2P&family=Rampart+One&family=Rubik+Iso&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    background: url(fundoplays.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.barbeiro{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icone{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logradouro{
+    color: #362FD9;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    padding-left: 10px;
+    float: left;
+    padding-top: 40px;
+}
+
+.primeiro{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+    color: #2B3467;
+}
+
+.procura1{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.procura2{
+    font-family: 'Sarala', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #2B3467;
+    margin-top: 15px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.botao1{
+    width: 100px;
+    height: 40px;
+    background-color: #2B3467;
+    border: 2px solid #2B3467;
+    margin-top: 15px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.noticia{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000;
+    position: relative;
+}
+
+.noticia .paragrafo{
+    padding-left: 5px;
+    padding-bottom: 25px;
+    font-family: 'Sarala', sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.noticia h2{
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 15%;
+    letter-spacing: 1px;
+}
+
+.noticia .botao2{
+    width: 160px;
+    height: 40px;
+    background-color: #23359b;
+    border: 2px solid #23359b;
+    margin-bottom: 20px;
+    color: #000;
+    margin-left: 15px;
+    font-size: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+
+.noticia .botao2 a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.botao2:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.noticia span{
+    color: #3043b3;
+    font-size: 65px;
+}
+
+.formulario{
+    width: 250px;
+    height: 400px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 130px;
+    left: 970px;
+    border-radius: 10px;
+    padding: 25px;   
+}
+
+.formulario h1{
+    width: 220px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #93C6E7;
+    font-size: 19px;
+    padding: 20px;
+}
+
+.formulario input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid #362FD9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 27px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.botao3{
+    width: 240px;
+    height: 35px;
+    background: #362FD9;
+    border: 2px solid #362FD9;
+    margin-top: 40px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #000;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+
+.botao3:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.formulario .pergunta{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.formulario .pergunta {
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.outros{
+    color: #fff;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.iconefinal a{
+    color: #fff;
+}
+
+.iconefinal ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 37px;
+    padding-top: 6px;
+    transition: 0.4s ease-in-out;
+}
+
+.iconefinal ion-icon:hover{
+    color: #362FD9;
+}
